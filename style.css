@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* color: white; */
+}
+body{
+    background-color:rgb(6, 3, 18);
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     height: 100vh;
+}
+form{
+background-color:blue;
+padding: 7vh;
+width: 80%;
+display: flex;
+flex-wrap:wrap;
+gap: 5vh;
+}
+input{
+    background-color: rgb(6, 3, 18);
+    border: none;
+    outline: invert;
+    color: blue;
+    padding: 1vh 10vh;
+    width: 50%;
+    flex-grow: 1;
+
+}
+form>button{
+    background-color: rgb(6, 3, 18);
+    color: aliceblue;
+    border: none;
+    border-radius: 50%;
+    padding: 0px;
+    cursor: pointer;
+    flex-basis:  30vh;
+    height: 7vh;
+     flex-grow: 1;
+}
