@@ -19,7 +19,7 @@ flex-wrap:wrap;
 gap: 5vh;
 }
 input{
-    font-size: x-large;
+    font-size: 10vh;
     background-color: rgb(6, 3, 18);
     border: none;
     outline: invert;
@@ -30,7 +30,7 @@ input{
 
 }
 form>button{
-    font-size: x-large;
+    font-size: 10vh;
     background-color: rgb(6, 3, 18);
     color: aliceblue;
     border: none;
@@ -38,6 +38,6 @@ form>button{
     padding: 0px;
     cursor: pointer;
     flex-basis:  30vh;
-    height: 7vh;
+    height: 12vh;
      flex-grow: 1;
 }
